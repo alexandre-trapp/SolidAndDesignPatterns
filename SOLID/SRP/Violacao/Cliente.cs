@@ -5,6 +5,9 @@ using System.Data.SqlClient;
 
 namespace SOLID.SRP.Violacao
 {
+    /// <summary>
+    /// Violação do SRP (Single responsability principle - Princípio da responsabilidade única)
+    /// </summary>
     public class Cliente
     {
         public int ClienteId { get; set; }
