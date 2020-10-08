@@ -1,4 +1,4 @@
-﻿using System;
+﻿using SOLID.OCP.Solucao_Extension_Methods;
 
 namespace SOLID
 {
@@ -6,7 +6,7 @@ namespace SOLID
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CaixaEletronico.Operacoes();
         }
     }
 }

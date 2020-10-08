@@ -1,6 +1,4 @@
-﻿using SOLID.OCP.Solucao;
-
-namespace SOLID.OCP.Solucao
+﻿namespace SOLID.OCP.Solucao
 {
     /// <summary>
     /// Solução do OCP (Open/Closed principle - Princípio de aberto/fechado, uma classe
