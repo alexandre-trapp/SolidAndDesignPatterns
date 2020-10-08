@@ -2,6 +2,9 @@
 
 namespace SOLID.SRP.Solucao
 {
+    /// <summary>
+    /// Solução do SRP (Single responsability principle - Princípio da responsabilidade única)
+    /// </summary>
     public class EmailServices
     {
         public static void Enviar(string de, string para, string assunto, string mensagem)
