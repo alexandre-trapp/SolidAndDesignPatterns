@@ -2,14 +2,11 @@
 
 namespace DesignPatterns.Creational.AbstractFactory
 {
-    /// <summary>
-    /// Concrete factory
-    /// </summary>
-    public class SocorroVeiculoPequenoFactory : AutoSocorroFactory
+    public class SocorroVeiculoMedioFactory : AutoSocorroFactory
     {
         public override Guincho CriarGuincho()
         {
-            return GuinchoCreator.Criar(Porte.Pequeno);
+            return GuinchoCreator.Criar(Porte.Medio);
         }
 
         public override Veiculo Criarveiculo(string modelo, Porte porte)

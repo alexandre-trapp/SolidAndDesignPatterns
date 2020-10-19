@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns.Abstractfactory;
+using System;
 
 namespace DesignPatterns
 {
@@ -41,26 +42,28 @@ namespace DesignPatterns
                 case '1':
                     ExecucaoAbstractFactory.Executar();
                     break;
-                case '2':
-                    ExecucaoFactoryMethod.Executar();
-                    break;
-                case '3':
-                    ExecucaoSingleton.Executar();
-                    break;
-                case '4':
-                    ExecucaoAdapter.Executar();
-                    break;
-                case '5':
-                    ExecucaoFacade.Executar();
-                    break;
-                case '6':
-                    ExecucaoCommand.Executar();
-                    break;
-                case '7':
-                    ExecucaoStrategy.Executar();
-                    break;
-                case '8':
-                    ExecucaoObserver.Executar();
+                //case '2':
+                //    ExecucaoFactoryMethod.Executar();
+                //    break;
+                //case '3':
+                //    ExecucaoSingleton.Executar();
+                //    break;
+                //case '4':
+                //    ExecucaoAdapter.Executar();
+                //    break;
+                //case '5':
+                //    ExecucaoFacade.Executar();
+                //    break;
+                //case '6':
+                //    ExecucaoCommand.Executar();
+                //    break;
+                //case '7':
+                //    ExecucaoStrategy.Executar();
+                //    break;
+                //case '8':
+                //    ExecucaoObserver.Executar();
+                //    break;
+                default:
                     break;
             }
 
