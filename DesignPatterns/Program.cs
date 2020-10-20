@@ -1,7 +1,8 @@
-﻿using DesignPatterns.Abstractfactory;
-using DesignPatterns.FactoryMethod;
+﻿using System;
+using DesignPatterns.Adapter;
 using DesignPatterns.Singleton;
-using System;
+using DesignPatterns.FactoryMethod;
+using DesignPatterns.Abstractfactory;
 
 namespace DesignPatterns
 {
@@ -50,9 +51,9 @@ namespace DesignPatterns
                 case '3':
                     ExecucaoSingleton.Executar();
                     break;
-                //case '4':
-                //    ExecucaoAdapter.Executar();
-                //    break;
+                case '4':
+                    ExecucaoAdapter.Executar();
+                    break;
                 //case '5':
                 //    ExecucaoFacade.Executar();
                 //    break;
