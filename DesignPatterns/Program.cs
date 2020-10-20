@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Abstractfactory;
+using DesignPatterns.FactoryMethod;
 using System;
 
 namespace DesignPatterns
@@ -42,9 +43,9 @@ namespace DesignPatterns
                 case '1':
                     ExecucaoAbstractFactory.Executar();
                     break;
-                //case '2':
-                //    ExecucaoFactoryMethod.Executar();
-                //    break;
+                case '2':
+                    ExecucaoFactoryMethod.Executar();
+                    break;
                 //case '3':
                 //    ExecucaoSingleton.Executar();
                 //    break;
