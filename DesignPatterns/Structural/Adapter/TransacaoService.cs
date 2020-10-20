@@ -15,6 +15,5 @@
             // transação
             _logger.Log("Transação realizada (log padrão)");
         }
-
     }
 }
