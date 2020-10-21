@@ -3,6 +3,7 @@ using DesignPatterns.Adapter;
 using DesignPatterns.Singleton;
 using DesignPatterns.FactoryMethod;
 using DesignPatterns.Abstractfactory;
+using DesignPatterns.Structural.Facade;
 
 namespace DesignPatterns
 {
@@ -54,9 +55,9 @@ namespace DesignPatterns
                 case '4':
                     ExecucaoAdapter.Executar();
                     break;
-                //case '5':
-                //    ExecucaoFacade.Executar();
-                //    break;
+                case '5':
+                    ExecucaoFacade.Executar();
+                    break;
                 //case '6':
                 //    ExecucaoCommand.Executar();
                 //    break;
