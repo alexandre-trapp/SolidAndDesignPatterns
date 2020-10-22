@@ -6,6 +6,7 @@ using DesignPatterns.Abstractfactory;
 using DesignPatterns.Structural.Facade;
 using DesignPatterns.Behavorial.Command;
 using DesignPatterns.Behavorial.Strategy;
+using DesignPatterns.Behavorial.Observer;
 using DesignPatterns.Structural.Composite;
 
 namespace DesignPatterns
@@ -71,9 +72,9 @@ namespace DesignPatterns
                 case '8':
                     ExecucaoStrategy.Executar();
                     break;
-                //case '9':
-                //    ExecucaoObserver.Executar();
-                //    break;
+                case '9':
+                    ExecucaoObserver.Executar();
+                    break;
                 default:
                     break;
             }
