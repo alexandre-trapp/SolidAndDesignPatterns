@@ -2,16 +2,16 @@
 
 namespace DesignPatterns.Structural.Composite
 {
-    public class DomainMessage : IMessage
+    internal class InputFormMessage : IMessage
     {
         public string _message { get; set; }
 
-        public DomainMessage(string message)
+        public InputFormMessage(string message)
         {
             _message = message;
         }
 
-        public void ExibirMensagens(int nivelMensagem) =>
+        public void ExibirMensagens(int nivelMensagem) => 
             Console.WriteLine(new string('-', nivelMensagem) + _message);
     }
 }

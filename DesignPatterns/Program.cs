@@ -4,6 +4,7 @@ using DesignPatterns.Singleton;
 using DesignPatterns.FactoryMethod;
 using DesignPatterns.Abstractfactory;
 using DesignPatterns.Structural.Facade;
+using DesignPatterns.Structural.Composite;
 
 namespace DesignPatterns
 {
@@ -26,13 +27,14 @@ namespace DesignPatterns
             Console.WriteLine("-------------------------");
             Console.WriteLine("4 - Adapter");
             Console.WriteLine("5 - Facade");
+            Console.WriteLine("6 - Composite");
 
             Console.WriteLine("-------------------------");
 
             Console.WriteLine("Behavioral Patterns:");
-            Console.WriteLine("6 - Command");
-            Console.WriteLine("7 - Strategy");
-            Console.WriteLine("8 - Observer");
+            Console.WriteLine("7 - Command");
+            Console.WriteLine("8 - Strategy");
+            Console.WriteLine("9 - Observer");
             Console.WriteLine("-------------------------");
 
             var opcao = Console.ReadKey();
@@ -58,13 +60,16 @@ namespace DesignPatterns
                 case '5':
                     ExecucaoFacade.Executar();
                     break;
-                //case '6':
+                case '6':
+                    ExecucaoComposite.Executar();
+                    break;
+                //case '7':
                 //    ExecucaoCommand.Executar();
                 //    break;
-                //case '7':
+                //case '8':
                 //    ExecucaoStrategy.Executar();
                 //    break;
-                //case '8':
+                //case '9':
                 //    ExecucaoObserver.Executar();
                 //    break;
                 default:
