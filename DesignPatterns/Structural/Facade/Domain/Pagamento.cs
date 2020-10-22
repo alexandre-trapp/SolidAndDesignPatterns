@@ -8,6 +8,6 @@
         public string CartaoCredito { get; set; }
         public string Boleto { get; set; }
         public string TransferenciaBancaria { get; set; }
-
+        public object ConfirmacaoTransferencia { get; internal set; }
     }
 }
